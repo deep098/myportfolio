@@ -534,7 +534,27 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 488px;}
     border:  1px solid #e5ebf2;
 }
 
-.profiles-content {padding-top: 100px;}
+.profiles-content {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content within profiles-content */
+    justify-content: center;
+}
+.profiles-container{
+    
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically, if needed */
+
+        flex-direction: column; /* Align items in a column */
+    
+}
+.profiles-row{
+    display: flex;
+    justify-content: center; /* Center columns within the row */
+    margin-bottom: 30px;
+}
 .profiles-content .col-sm-3{padding:0;}
 .profile-txt {
     display: flex;
